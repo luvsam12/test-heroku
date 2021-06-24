@@ -1,0 +1,7 @@
+<div style="float: right;width: 100%; margin-bottom: 10px;">
+  <div style="float: left;margin-right: 10px;">blogs</div>
+  <div style="float: left;margin-right: 10px;">forums</div>
+  <button (click)="signup()" *ngIf="!login_check">Signup</button>
+  <button (click)="login()" *ngIf="!login_check">Login</button>
+  <button (click)="logout()" *ngIf="login_check">Logout</button>
+</div>
